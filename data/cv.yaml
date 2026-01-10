@@ -24,14 +24,14 @@
       institution: Indian Institute of Technology Bombay
       year: "Jun 2023 – Oct 2024"
       description:
-        - Master’s Thesis: Self-Supervised Masked Autoencoder for Satellite Image Representation Learning.
+        - Master’s Thesis - Self-Supervised Masked Autoencoder for Satellite Image Representation Learning.
         - Developed enhanced masked autoencoder models for spectral–spatial representation learning.
 
     - title: Bachelor of Technology
       institution: National Institute of Technology Tiruchirappalli
       year: "Jun 2017 – May 2021"
       description:
-        - Bachelor’s Thesis: Deep Learning for Carbon Nanotube Behavior Prediction in Hydrogen Fuel Cells.
+        - Bachelor’s Thesis - Deep Learning for Carbon Nanotube Behavior Prediction in Hydrogen Fuel Cells.
 
 - title: Experience
   type: time_table
