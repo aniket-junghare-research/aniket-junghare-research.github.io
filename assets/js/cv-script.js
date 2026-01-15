@@ -11,7 +11,7 @@ function parseColoredText(text) {
         '#e91e63', '#00bcd4',
     ];
 
-    return text.replace(/\[\[([^\]]+)\]\]/g, (match, content) => {
+    return text.replace(/\[\[(.+?)\]\]/g, (match, content) => {
         const randomColor = brightColors[Math.floor(Math.random() * brightColors.length)];
         return `<span style="color: ${randomColor}; font-weight: 500;">${content}</span>`;
     });
