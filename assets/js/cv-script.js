@@ -45,7 +45,7 @@ async function renderCV() {
 
         const cvHTML = cvSections.map(section => {
             let html = `<div class="cv-section">
-                <h2 class="cv-section-title">${section.title}</h2>`;
+                <h2 class="cv-section-title">${formatText(section.title)}</h2>`;
 
             if (section.type === 'map') {
                 // General Information - map format
