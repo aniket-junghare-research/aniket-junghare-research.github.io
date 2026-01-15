@@ -20,7 +20,7 @@ body {
     position: sticky;
     top: 0;
     z-index: 100;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .nav-container {
@@ -127,7 +127,8 @@ body {
 .about-text a {
     text-decoration: none;
     transition: opacity 0.2s;
-    color: #4ec9b0; /* Initial color, will be randomized by JS */
+    color: #4ec9b0;
+    /* Initial color, will be randomized by JS */
 }
 
 .about-text a:hover {
@@ -151,7 +152,8 @@ body {
 .news-list a {
     text-decoration: none;
     transition: opacity 0.2s;
-    color: #4ec9b0; /* Initial color, will be randomized by JS */
+    color: #4ec9b0;
+    /* Initial color, will be randomized by JS */
 }
 
 .news-list a:hover {
@@ -162,9 +164,10 @@ body {
 /* News Items (for dedicated news page) */
 .news-item {
     display: flex;
-    gap: 1rem;
-    padding: 1rem 0;
-    margin-bottom: 1.5rem;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1.5rem 0;
+    margin-bottom: 0;
     border-bottom: 1px solid #3e3e3e;
 }
 
@@ -173,15 +176,12 @@ body {
 }
 
 .news-date {
-    flex-shrink: 0;
-    width: 150px;
     color: #858585;
     font-size: 0.9rem;
     font-weight: 500;
 }
 
 .news-content {
-    flex: 1;
     color: #d4d4d4;
     line-height: 1.8;
     position: relative;
@@ -282,7 +282,8 @@ body {
     margin-right: 1rem;
     font-size: 0.9rem;
     transition: opacity 0.2s;
-    color: #4ec9b0; /* Initial color, will be randomized by JS */
+    color: #4ec9b0;
+    /* Initial color, will be randomized by JS */
 }
 
 .publication-links a:hover {
@@ -455,4 +456,3 @@ body {
         object-fit: contain;
     }
 }
-
