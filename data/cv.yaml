@@ -1,4 +1,4 @@
-- title: [General Information](https://aniket-junghare-research.github.io/cv.html)
+- title: General Information
   type: map
   contents:
     - name: Full Name
@@ -10,7 +10,7 @@
     - name: Location
       value: Mumbai, India
 
-- title: [[Education]]
+- title: [Education](https://aniket-junghare-research.github.io/cv.html)
   type: time_table
   contents:
     - title: PhD Research Scholar
