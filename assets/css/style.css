@@ -220,11 +220,6 @@ body {
     border-bottom: none;
 }
 
-.publication.selected {
-    border-left: 4px solid #4ec9b0;
-    padding-left: calc(1rem - 4px);
-}
-
 .publication-preview {
     flex-shrink: 0;
     width: 200px;
